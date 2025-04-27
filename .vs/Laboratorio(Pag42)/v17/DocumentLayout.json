@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ca\\source\\repos\\Laboratorio(Pag42)\\",
+  "WorkspaceRootPath": "C:\\Users\\ca\\source\\repos\\PruebasV-V\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9C49942-ECF8-481C-8853-C982EEDEE18E}|Laboratorio(Pag42)\\Laboratorio(Pag42).csproj|c:\\users\\ca\\source\\repos\\laboratorio(pag42)\\laboratorio(pag42)\\selectores\\selectorestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C49942-ECF8-481C-8853-C982EEDEE18E}|Laboratorio(Pag42)\\Laboratorio(Pag42).csproj|solutionrelative:laboratorio(pag42)\\selectores\\selectorestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C49942-ECF8-481C-8853-C982EEDEE18E}|Laboratorio(Pag42)\\Laboratorio(Pag42).csproj|c:\\users\\ca\\source\\repos\\pruebasv-v\\laboratorio(pag42)\\frame\\frametests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C49942-ECF8-481C-8853-C982EEDEE18E}|Laboratorio(Pag42)\\Laboratorio(Pag42).csproj|solutionrelative:laboratorio(pag42)\\frame\\frametests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C49942-ECF8-481C-8853-C982EEDEE18E}|Laboratorio(Pag42)\\Laboratorio(Pag42).csproj|c:\\users\\ca\\source\\repos\\laboratorio(pag42)\\laboratorio(pag42)\\inicio\\testbasico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9C49942-ECF8-481C-8853-C982EEDEE18E}|Laboratorio(Pag42)\\Laboratorio(Pag42).csproj|c:\\users\\ca\\source\\repos\\pruebasv-v\\laboratorio(pag42)\\inicio\\testbasico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C49942-ECF8-481C-8853-C982EEDEE18E}|Laboratorio(Pag42)\\Laboratorio(Pag42).csproj|solutionrelative:laboratorio(pag42)\\inicio\\testbasico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C49942-ECF8-481C-8853-C982EEDEE18E}|Laboratorio(Pag42)\\Laboratorio(Pag42).csproj|c:\\users\\ca\\source\\repos\\pruebasv-v\\laboratorio(pag42)\\selectores\\selectorestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C49942-ECF8-481C-8853-C982EEDEE18E}|Laboratorio(Pag42)\\Laboratorio(Pag42).csproj|solutionrelative:laboratorio(pag42)\\selectores\\selectorestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestBasico.cs",
-              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\Laboratorio(Pag42)\\Laboratorio(Pag42)\\Inicio\\TestBasico.cs",
-              "RelativeDocumentMoniker": "Laboratorio(Pag42)\\Inicio\\TestBasico.cs",
-              "ToolTip": "C:\\Users\\ca\\source\\repos\\Laboratorio(Pag42)\\Laboratorio(Pag42)\\Inicio\\TestBasico.cs",
-              "RelativeToolTip": "Laboratorio(Pag42)\\Inicio\\TestBasico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FrameTests.cs",
+              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasV-V\\Laboratorio(Pag42)\\Frame\\FrameTests.cs",
+              "RelativeDocumentMoniker": "Laboratorio(Pag42)\\Frame\\FrameTests.cs",
+              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasV-V\\Laboratorio(Pag42)\\Frame\\FrameTests.cs",
+              "RelativeToolTip": "Laboratorio(Pag42)\\Frame\\FrameTests.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T05:47:48.517Z",
+              "WhenOpened": "2025-04-27T02:32:02.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SelectoresTests.cs",
-              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\Laboratorio(Pag42)\\Laboratorio(Pag42)\\selectores\\SelectoresTests.cs",
-              "RelativeDocumentMoniker": "Laboratorio(Pag42)\\selectores\\SelectoresTests.cs",
-              "ToolTip": "C:\\Users\\ca\\source\\repos\\Laboratorio(Pag42)\\Laboratorio(Pag42)\\selectores\\SelectoresTests.cs",
-              "RelativeToolTip": "Laboratorio(Pag42)\\selectores\\SelectoresTests.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TestBasico.cs",
+              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasV-V\\Laboratorio(Pag42)\\Inicio\\TestBasico.cs",
+              "RelativeDocumentMoniker": "Laboratorio(Pag42)\\Inicio\\TestBasico.cs",
+              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasV-V\\Laboratorio(Pag42)\\Inicio\\TestBasico.cs",
+              "RelativeToolTip": "Laboratorio(Pag42)\\Inicio\\TestBasico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T05:43:34.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T05:47:48.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SelectoresTests.cs",
+              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasV-V\\Laboratorio(Pag42)\\selectores\\SelectoresTests.cs",
+              "RelativeDocumentMoniker": "Laboratorio(Pag42)\\selectores\\SelectoresTests.cs",
+              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasV-V\\Laboratorio(Pag42)\\selectores\\SelectoresTests.cs",
+              "RelativeToolTip": "Laboratorio(Pag42)\\selectores\\SelectoresTests.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T05:43:34.645Z"
             }
           ]
         }
