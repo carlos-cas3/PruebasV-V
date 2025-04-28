@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
+using FluentAssertions;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Laboratorio_Pag42_.Frame
@@ -38,11 +39,13 @@ namespace Laboratorio_Pag42_.Frame
 
             driver.SwitchTo().Frame(0); // nos ubicamos en el primer iframe
             var webElementLeft = driver.FindElement(By.CssSelector("h2")).Text; // optenemos el valor del texto
+            webElementLeft.Should().Be("Welcome to the main frame!");
 
             //para el segundo iframe
             driver.SwitchTo().DefaultContent(); //retorna al contenedor general.
             driver.SwitchTo().Frame(1);
             var webElementRight = driver.FindElement(By.CssSelector("h2")).Text; //optenemos el valor del texto
+            webElementRight.Should().Be("Content in the secondary frame!");
 
 
         }

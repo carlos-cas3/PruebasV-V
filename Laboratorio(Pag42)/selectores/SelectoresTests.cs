@@ -32,6 +32,7 @@ namespace Laboratorio_Pag42_.selectores
         public void GetEachOfTheElements()
         {
             driver.FindElement(By.Id("SelectorsWeb")).Click(); //Selecciona el elemento de la web por id
+
             //en la segunda pagina, seleccionamos por ID el texto del Element 1
             driver.FindElement(By.Id("myId")).Text.Should().Be("Element 1");
 
@@ -42,7 +43,6 @@ namespace Laboratorio_Pag42_.selectores
             //opcion buscarlo dentro de la seccion div name elements
             var elementsSecction = driver.FindElement(By.Name("elements")); // Filtra la seccion
             elementsSecction.FindElement(By.Id("myId")).Text.Should().Be("Element 3"); //dentro de la sccion filtrada busca por id
-
             //opcion usando directamente el selector de CSS
             driver.FindElement(By.CssSelector("[name='elements'] #myId")).Text.Should().Be("Element 3");
 
@@ -51,7 +51,6 @@ namespace Laboratorio_Pag42_.selectores
 
             //para el Element 5, por CSS
             driver.FindElement(By.CssSelector("div [style='color:magenta']")).Text.Should().Be("Element 5");
-
             //para el Element 5 usar XPath: esto es arriesgado ya que depende de como se escriba el texto
             driver.FindElement(By.XPath("//* [contains(text(), 'Element 5')]")).Text.Should().Be("Element 5");
 
