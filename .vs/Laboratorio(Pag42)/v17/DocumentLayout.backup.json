@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FrameTests.cs",
-              "DocumentMoniker": "C:\\Users\\ca\\Source\\Repos\\PruebasV-V\\Laboratorio(Pag42)\\Frame\\FrameTests.cs",
+              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasV-V\\Laboratorio(Pag42)\\Frame\\FrameTests.cs",
               "RelativeDocumentMoniker": "Laboratorio(Pag42)\\Frame\\FrameTests.cs",
-              "ToolTip": "C:\\Users\\ca\\Source\\Repos\\PruebasV-V\\Laboratorio(Pag42)\\Frame\\FrameTests.cs",
+              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasV-V\\Laboratorio(Pag42)\\Frame\\FrameTests.cs",
               "RelativeToolTip": "Laboratorio(Pag42)\\Frame\\FrameTests.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCwAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T02:32:02.142Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Laboratorio(Pag42)\\Inicio\\TestBasico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T05:47:48.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T05:47:48.517Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Laboratorio(Pag42)\\selectores\\SelectoresTests.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAwwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T05:43:34.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T05:43:34.645Z"
             }
           ]
         }
