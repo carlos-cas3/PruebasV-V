@@ -1,0 +1,20 @@
+```mermaid
+graph TD
+    A[Usuario arrastra archivo (CSV, XLSX, PDF, DOC)] --> B[Frontend pasa archivo al Backend]
+    B --> C[Backend guarda archivo en un storage (ej. S3, Supabase)]
+    C --> D[Storage genera URL pública y la devuelve al Backend]
+    D --> E[Backend genera UUID y lo asocia al URL público]
+    E --> F[Backend envía UUID + URL al flujo N8N]
+    F --> G{N8N detecta tipo de archivo}
+    G --> G1[CSV: Extraer datos con nodo CSV]
+    G --> G2[XLSX: Extraer datos con nodo Excel]
+    G --> G3[PDF: Extraer texto con OCR o lector PDF]
+    G --> G4[DOC/DOCX: Extraer texto con lector de Word]
+    G1 & G2 & G3 & G4 --> H[N8N obtiene content + id]
+    H --> I[LangChain limpia el texto]
+    I --> J[LangChain extrae RF y CU usando LLM]
+    J --> K[Inserta RF y CU en Supabase]
+    K --> L[Se realiza embedding de RF y CU]
+    L --> M[Se hace clustering de embeddings]
+    M --> N[Se detectan relaciones entre RF y CU]
+    N --> O[Se generan casos de prueba automáticamente]
